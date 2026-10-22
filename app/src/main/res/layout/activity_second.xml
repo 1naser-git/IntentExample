@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout android:id="@+id/second_content"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView style="@style/LabLabel" android:text="@string/lab_label" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/second_title" android:textSize="32sp" android:textStyle="bold"
+            android:textColor="#101828" android:layout_marginTop="12dp" />
+        <TextView style="@style/BodyText" android:text="@string/second_description"
+            android:layout_marginTop="12dp" />
+        <TextView style="@style/LabLabel" android:text="@string/received_label"
+            android:layout_marginTop="40dp" />
+        <TextView android:id="@+id/message_text"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="24sp" android:textStyle="bold" android:textColor="#101828"
+            android:lineSpacingExtra="6dp" android:layout_marginTop="12dp" />
+        <Button android:id="@+id/return_button" style="@style/ActionButton"
+            android:text="@string/return_main" android:layout_marginTop="32dp" />
+        <TextView style="@style/BodyText" android:text="@string/return_description"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>
