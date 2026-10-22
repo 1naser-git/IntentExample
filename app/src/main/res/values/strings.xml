@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentExample</string>
+    <string name="lab_label">ANDROID LAB</string>
+    <string name="main_title">Activities and Intents</string>
+    <string name="main_description">Move between screens and ask other apps to handle a request.</string>
+    <string name="explicit_label">01   EXPLICIT INTENT</string>
+    <string name="explicit_description">Open a specific screen in this app and send it a message.</string>
+    <string name="open_second">Open second activity</string>
+    <string name="implicit_label">02   IMPLICIT INTENT</string>
+    <string name="implicit_description">Ask Android to open android.com in an available browser.</string>
+    <string name="open_website">Open website</string>
+    <string name="optional_label">03   OPTIONAL EXTENSION</string>
+    <string name="location_description">Show 50.3217, 19.1949 in an available maps app.</string>
+    <string name="show_location">Show location</string>
+    <string name="second_title">Second Activity</string>
+    <string name="second_description">This screen was opened by an explicit Intent.</string>
+    <string name="received_label">RECEIVED MESSAGE</string>
+    <string name="message_to_send">Message sent from MainActivity</string>
+    <string name="no_message">No message was provided.</string>
+    <string name="return_main">Return to main activity</string>
+    <string name="return_description">Return to the original screen without creating another copy.</string>
+    <string name="no_browser">No browser is installed to open this website.</string>
+    <string name="no_maps">No maps app is installed to show this location.</string>
+</resources>
